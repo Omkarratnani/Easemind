@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styles.css">
+    <title>EaseMinds</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="static/logo.png" alt="EaseMinds Logo">
+        </div>
+        <h1>Welcome to EaseMinds</h1>
+    </header>
+    <main>
+        <section class="intro-section">
+            <p>Confidential and accessible mental health support for students.</p>
+        </section>
+        <section class="login-section">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="button" onclick="login()">Login</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 EaseMinds By Team Binary Nomads. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+

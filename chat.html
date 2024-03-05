@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EaseMinds - Chat</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="static/logo.png" alt="EaseMinds Logo">
+            <h1>Welcome to EaseMinds</h1>
+            <button onclick="logout()">Logout</button>
+        </header>
+
+        <main>
+            <div id="chat-container">
+                <div id="chat-box">
+                </div>
+                <div id="user-input">
+                    <input type="text" id="message-input" placeholder="Type your message...">
+                    <button onclick="sendMessage()">Send</button>
+                </div>
+            </div>
+        </main>
+
+        <aside>
+            <div id="options">
+                <label for="anonymity">Anonymous:</label>
+                <input type="checkbox" id="anonymity" onchange="toggleAnonymity()">
+            </div>
+        </aside>
+    </div>
+
+    <script src="static/script.js"></script>
+</body>
+
+</html>

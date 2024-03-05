@@ -1,0 +1,462 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, button, input {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('static/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333; /* Adjust text color based on your image */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Header Styles */
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container img {
+    max-height: 10px;
+    margin-right: 5em;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Main Styles */
+main {
+    padding: 2em;
+}
+
+/* Intro Section Styles */
+.intro-section {
+    margin-bottom: 2em;
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Login Section Styles */
+.login-section {
+    max-width: 300px;
+    margin: auto;
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5em;
+    color: #555;
+}
+
+input {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.5em;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #267bb5;
+}
+
+/* Chat Container Styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+/* Chat Section Styles */
+#chat-container {
+    background-color: #fff;
+    width: 70%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+#chat-box {
+    height: 300px;
+    overflow-y: auto;
+}
+
+/* User Input Styles */
+#user-input {
+    display: flex;
+    margin-top: 10px;
+}
+
+#message-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-left: 10px;
+}
+
+button,
+input[type="checkbox"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.5em;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover,
+input[type="checkbox"]:hover {
+    background-color: #267bb5;
+}
+
+/* Aside Styles */
+aside {
+    width: 70%;
+    margin-top: 20px;
+}
+
+#options {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+label {
+    margin-right: 10px;
+}
+
+/* Message Styles */
+.message {
+    padding: 8px;
+    margin-bottom: 5px;
+    max-width: 70%;
+    border-radius: 5px;
+}
+
+/* System Message Styles */
+.message.system {
+    color: #7f8c8d;
+    background-color: #ecf0f1;
+}
+
+/* User Message Styles */
+.message.user {
+    background-color: #3498db;
+    color: white;
+    align-self: flex-end;
+}
+
+/* AI Message Styles */
+.message.ai {
+    background-color: #2ecc71;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+/* Common Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container img {
+    max-height: 50px;
+    margin-right: 1em;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 2em;
+}
+
+/* Call Section Styles */
+.call-section {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* ... (previous CSS code) ... */
+
+/* Additional Info Styles */
+.additional-info {
+    margin-top: 50px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+/* Form Styles */
+#appointmentForm {
+    max-width: 300px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #267bb5;
+}
+
+/* ... (remaining CSS code) ... */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header img {
+    max-height: 50px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    flex: 1;
+    padding: 2em;
+    overflow-y: auto;
+}
+
+#chat-container {
+    background-color: #fff;
+    width: 70%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+#chat-box {
+    height: 300px;
+    overflow-y: auto;
+}
+
+#user-input {
+    display: flex;
+    margin-top: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#message-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #267bb5;
+}
+
+aside {
+    width: 70%;
+    margin-top: 20px;
+}
+
+#options {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+label {
+    margin-right: 10px;
+}
